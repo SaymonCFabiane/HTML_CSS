@@ -1,0 +1,108 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nova+Square&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+    :root{
+        --corbody: #79f5b571;
+        --cor1: #79F5B5;
+        --cor2: #27f5cf52;
+        --cor3: #27D6F5;
+        --cor4: #27F58B;
+        --cor5: #27f54671;
+        --cor6: #59F527;
+        --cor7: #1fb2cc;
+        --fonte_destaque: "Bebas Neue", cursive;
+    }
+
+
+
+body{
+    background-color: var(--corbody);
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    text-indent: 10px;
+    padding: 10px;
+}
+h2{
+    text-indent: 5px;
+    padding: 2px;
+    background-image: linear-gradient(to right, var(--cor2), white 60%);
+    border-radius: 5px;
+    font-family: var(--fonte_destaque);
+    color: var(--cor7);
+}
+header{
+    background-image: linear-gradient(to bottom, var(--cor5), var(--cor3));
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+header > h1{
+    font-size: 3em;
+    padding: 7px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.336);
+    font-family: var(--fonte_destaque);
+}
+header > p{
+    font-size: 1.3em;
+}
+nav{
+    background-color: var(--cor3);
+    padding: 10px;
+}
+nav a{
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+nav a:hover{
+    background-color: var(--cor6);
+}
+main{
+    background-color: white;
+    max-width: 900px;
+    min-width: 350px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 5px 10px black;
+}
+main p{
+    line-height: 2em;
+    text-align: justify;
+}
+footer{
+    background-color: var(--cor3);
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 0.8em;
+}
+footer a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    padding: 0px;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: var(--cor1);   
+}
+.tamanho{
+    max-width: 300px;
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+.tamback{
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+    display: block;
+}
